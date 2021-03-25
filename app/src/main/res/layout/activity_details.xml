@@ -13,7 +13,7 @@
         android:layout_height="wrap_content">
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/title_count"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
@@ -36,10 +36,10 @@
             android:layout_alignParentRight="true"
             android:background="@drawable/pie_left"
             android:contentDescription="TODO"
-            android:onClick="button_change_language"
-            app:layout_constraintEnd_toEndOf="@+id/textView"
+            android:onClick="button_back_activity"
+            app:layout_constraintEnd_toEndOf="@+id/title_count"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/ic_language_white_24dp"
+            app:srcCompat="@drawable/ic_forward"
             tools:ignore="OnClick,VectorDrawableCompat" />
 
         <ImageButton
@@ -52,7 +52,7 @@
             android:contentDescription="TODO"
             android:onClick="image_share_question"
             android:src="@drawable/ic_share_white_24dp"
-            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintStart_toStartOf="@+id/title_count"
             app:layout_constraintTop_toTopOf="parent"
             tools:ignore="OnClick" />
     </RelativeLayout>

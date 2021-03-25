@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name"> application  </string>
+    <string name="Citation_morning"> athkar sabahe  </string>
+    <string name="Evening_prayers">  athkar masahe </string>
+    <string name="Supplications">   dohaa </string>
+    <string name="changeLang"> change language application </string>
+
+
+</resources>
