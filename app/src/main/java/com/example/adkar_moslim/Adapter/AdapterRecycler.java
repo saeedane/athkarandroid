@@ -49,7 +49,6 @@ public class AdapterRecycler extends RecyclerView.Adapter<AdapterRecycler.viewHo
                 Intent intent = new Intent(v.getContext(), DetailsActivity.class);
 
                 intent.putExtra("position",position);
-                Toast.makeText(context,"item " + position,Toast.LENGTH_SHORT).show();
 
 
 

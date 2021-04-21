@@ -55,6 +55,7 @@
             app:layout_constraintStart_toStartOf="@+id/title_count"
             app:layout_constraintTop_toTopOf="parent"
             tools:ignore="OnClick" />
+
     </RelativeLayout>
 
     <TextView

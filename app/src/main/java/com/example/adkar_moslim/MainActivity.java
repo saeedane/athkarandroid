@@ -1,6 +1,8 @@
 package com.example.adkar_moslim;
 
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 import androidx.core.content.res.ResourcesCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -8,7 +10,9 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Color;
 import android.graphics.Typeface;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ListView;
@@ -59,26 +63,25 @@ public class MainActivity extends AppCompatActivity  {
 
     public void button_change_language(View view) {
 
-        showDialogLang();
 
+        showDialogLang();
 
 
 
     }
 
 
+
     private void showDialogLang() {
-        String[] charLang ={"ar", "en"};
         AlertDialog.Builder dialog = new AlertDialog.Builder(this);
         dialog.setTitle(R.string.changeLang);
-        dialog.setIcon(R.drawable.icon_1);
-        dialog.setItems(charLang, new DialogInterface.OnClickListener() {
+        dialog.setItems(R.array.language, new DialogInterface.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN_MR1)
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 if (which == 0){
                     LocaleHelper.setLocale(getApplicationContext(),"ar");
                     refreshActivity();
-                    Toast.makeText(getApplicationContext(), "Locale in Arabic !", Toast.LENGTH_LONG).show();
 
 
                 }else{
@@ -86,7 +89,6 @@ public class MainActivity extends AppCompatActivity  {
                     LocaleHelper.setLocale(getApplicationContext(),"en");
                     refreshActivity();
 
-                    Toast.makeText(getApplicationContext(), "Locale in English !", Toast.LENGTH_LONG).show();
 
 
                 }
@@ -100,7 +102,6 @@ public class MainActivity extends AppCompatActivity  {
 
 
     }
-
 
     private void refreshActivity(){
 

@@ -56,6 +56,8 @@
             app:layout_constraintStart_toStartOf="@+id/title_count"
             app:layout_constraintTop_toTopOf="parent"
             tools:ignore="OnClick" />
+
+
     </RelativeLayout>
 
     <androidx.recyclerview.widget.RecyclerView
@@ -63,6 +65,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="10dp" />
+
 
 
 </LinearLayout>

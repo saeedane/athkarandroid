@@ -1,10 +1,125 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name"> application  </string>
-    <string name="Citation_morning"> athkar sabahe  </string>
-    <string name="Evening_prayers">  athkar masahe </string>
-    <string name="Supplications">   dohaa </string>
-    <string name="changeLang"> change language application </string>
+    <string name = "app_name"> Muslim Adkar App </string>
+    <string name = "Citation_morning" translatable = "false"> Morning Supplications </string>
+    <string name = "Evening_prayers"> Evening Anniversary </string>
+    <string name = "Supplications"> Supplications </string>
+    <string name = "changeLang"> Change application language </string>
+    <string name = "text_share_title" translatable = "false"> Share the supplication with your friends so that it can be useful </string>
+
+    <string-array name="language">
+
+        <item> arabic  </item>
+        <item> english   </item>
+
+    </string-array>
+
+
+
+    <string-array name="athkar_sabah">
+        <item> We have become according to the nature of Islam, the word of sincerity, the religion of our Prophet Muhammad, may God’s prayers and peace be upon him, and the community of our father Ibrahim, honest and Muslim, and he was not among the polytheists.</item>
+        <item> I accepted God as a Lord, Islam as a religion, and Muhammad, may God bless him and grant him peace as a Prophet </item>
+        <item> There is no god but God alone, He has no partner, He has the King, He has praise, and He is almighty over everything. </item>
+        <item> To them, I ask you for beneficial knowledge, a good livelihood, and an acceptable workً </item>
+        <item> In the name of God who does not harm anything with his name on earth or in the sky, and he is the Hearer, the All-Knowing. </item>
+        <item> Oh God, we have become through you, and through you are our days, and through you we live, and through you we will die. </item>
+        <item> O God, you are my Lord, not a god but you created me, and I am your servant, and I am on your pledge and promise.</item>
+        <item> We have become and the kingship is to God, and praise be to God.</item>
+        <item> O living, O Qayyum, I cry for help, and fix all my affairs for me, and never entrust me to myself as a blink of an eye </item>
+        <item> Oh God, I ask you for pardon and wellness in this world and in the hereafter.</item>
+        <item> Assuming God, there is no god but He on him I have trusted ۖ, and He is the Lord of the Great Throne seven times </item>
+        <item> Praise be to God, the number of his creation, praise of God, the pleasure of himself, the glory of God is the adultery of his throne, the glory of God is the extent of his words </item>
+        <item> O God, the creator of the heavens and the earth, the realm of the unseen and witness. There is no god but You are the Lord of everything and its sovereignty. I seek refuge in You from the evil of my soul and from the evil of Satan and his polytheism, and that I commit an evil on myself or reward it to a Muslim </item>
+        <item> O God, I have come to bear witness to you, and to testify to the bearers of your throne, your angels, and all of your creation: that you are God, there is no god but you, and your servant alone has no partner.</item>
+        <item> There is no god but God alone, with no partner, to Him is the kingdom and to Him. Praise be alive and dying, and He is almighty over everything. </item>
+        <item> Glory be to God, praise be to God, and there is no god but God, and God is greater, and there is no might or power except with God, the Most High, the Great. </item>
+        <item> Praise and praise of God </item>
+        <item> O God, heal me in my body, O God, heal me in my hearing, O God, heal me in my sight, there is no god but You.</item>
+
+
+
+
+
+    </string-array>
+
+
+    <string-array name="athkar_count">
+        <item> One Time </item>
+        <item> One Time </item>
+        <item> One Time </item>
+        <item> One Time </item>
+        <item> three times </item>
+        <item> One Time </item>
+        <item> One Time </item>
+        <item> One Time </item>
+        <item> One Time </item>
+        <item> One Time </item>
+        <item> Seven times </item>
+        <item> three times </item>
+        <item> One Time </item>
+        <item> four times </item>
+        <item> Ten times </item>
+        <item> A hundred times or more </item>
+        <item> A hundred times or more </item>
+        <item> three times </item>
+
+
+
+
+
+
+    </string-array>
+
+
+
+    <string-array name="athkar_masah">
+        <item> There is no god but God is living and subsisting do not take one year and not sleep him what is in the heavens and on earth: Who will intercede with Him except with his permission knows what is between them and behind them and surround some of his knowledge as he wishes, but expanded His throne is the heavens and the earth and their preservation is not intolerable to him and he is the Most High </item>
+        <item> I accepted God as Lord, Islam as a religion, and Muhammad, may God bless him and grant him peace as a Prophet </item>
+        <item> Instruct us on the nature of Islam, on the word of sincerity, on the religion of our Prophet Muhammad, may God’s prayers and peace be upon him, and on the faith of our father Ibrahim, a true Muslim, and he was not among the polytheists </item>
+        <item> Oh God, our two days, and through you we became, and through you we live, and through you we die, and here is the destiny </item>
+        <item> O living, O Qayyum, I cry for help, and fix all my affairs for me, and never entrust me to myself as a blink of an eye </item>
+        <item> O God, you are my Lord, not a god but you created me, and I am your servant.</item>
+        <item> Oh God, the creator of the heavens and the earth, the realm of the unseen and the witness. There is no god but You, the Lord of everything and its sovereignty.</item>
+        <item> Omsina and has become the king of God, thank God, there is no god but Allah alone with no partner, to Him praise and He over all things, Oh God, I ask the good tonight, and I seek refuge in You from the evil of the night, the evil of what then O Allah, I seek refuge in you from Laziness and the misfortune of arrogance, God, I seek refuge in You from torment in fire and torment in the grave    </item>
+        <item> Oh God, I ask you for pardon and wellness in this world and in the hereafter.</item>
+        <item> The name of God who does not harm anything with his name on earth or in the sky, and he is the Hearing, the All-Knowing. </item>
+        <item> I seek refuge in the complete words of God from the evil of what He has created </item>
+        <item> O God, heal me in my body, O God, heal me in my hearing, O God, heal me in my sight, there is no god but you, O God, I seek refuge in You from disbelief and poverty, O God, I seek refuge in You from unbelief / Poverty</item>
+        <item> Reading Surah: Ikhlas, Falaq, and People </item>
+        <item> Assuming God, there is no god but He to whom I have relied ۖ, and He is the Lord of the Great Throne </item>
+        <item> O God, I will testify to you at night, and testify to the bearers of your throne, your angels, and all of your creation: that you are God, there is no god but you, and only you are your servant, and that Muhammad is your servant.</item>
+        <item> Glory be to God, praise be to God, and there is no god but God, and God is greater and there is no might or power except with God, the Most High, the Mighty. </item>
+        <item> There is no god but God alone, He has no partner, He has the King, He has praise, and He is Almighty over all things </item>
+        <item> In the name of God who does not harm with his name anything on earth or in heaven, and he is the Hearer. </item>
+
+
+    </string-array>
+
+
+
+    <string-array name="athkar">
+        <item> O Allah O Hearing, invitations, O napped hiccups, Yakadi needs, O detector Carpathia, O high grades, oh, forgiving gaffes, forgive Muslims and Muslim women, the believing men and women, living and dead, you listens and responds close calls. </item>
+        <item> Oh God, I ask you the greatest name, which, if invited by the answer, and asked if it was given, I ask that I bear witness that you are no God but you, Sunday Samad, who did not generate, not born, and did not have no longer one; To forgive me for my sins, for You are the Forgiving, the Most Merciful. </item>
+        <item> O God, forgive me for my sin and my ignorance, and my extravagance in my affairs.</item>
+        <item> O God, forgive me for my sin and my ignorance, and my extravagance in my affairs.</item>
+        <item>O Allah, You are my Lord, there is no god but You created me and I am your servant, and I am your custom Uadk Maasttat, I seek refuge in You from the evil of what I have done, I acknowledge Your favor upon you, and I acknowledge my sin, so forgive me, for none forgives sins except You.</item>
+        <item>Oh God, forgive me my sin, and extended to me in Dare, Lee Park in Rozka.allahm not our Taakhzna if we have forgotten or sinned, our Lord and we carry insisted as his campaign on those of us, our Lord does not lead us what we can not afford it, and feel disgusted about us and forgive us and have mercy on us You are ours, so give victory to the unbelievers.</item>
+        <item>O God, we have obeyed you in the things that are most dear to you, that they obey Him in Him, faith in you, and acknowledge you, and we did not obey you in your fathers. Blasphemy and disbelief in you, O God, forgive us for what is between them.</item>
+        <item>Oh God, wash my heart with water ice and cold, Onq my heart sins as white scrubbed from the filth dress, and thrust between me and my sins as alienated between the east and Morocco.</item>
+        <item>O Lord of Gabriel and Michael, and Israfil, Creator of the heavens and the earth, the world of the unseen and the certificate, you judge between your slaves wherein they differ, Ahidna Oh God, I am your servant, son servant, son of your nation, Nasita hand, a past in your judgment, justice in your taking, ask each name is yours, You called it yourself, or</item>
+        <item> Lord, make me abide in prayer, and among my descendants Our Lord, and accept supplication </item>
+        <item> There is no god but You are glorified. I was among the wrongdoers </item>
+        <item> O God, heal me in my body, O God, heal me in my hearing, O God, heal me in my sight, there is no god but you, O God, I seek refuge in You from disbelief and poverty, O God, I seek refuge in You from unbelief / Poverty</item>
+        <item> Our Lord, grant us from our husbands and descendants the apple of the eyes, and make us the imam for the righteous </item>
+        <item> Lord, give us good in this world and good in the hereafter, and save us the torment of fire </item>
+        <item> Our Lord does not Taakhzna if we have forgotten or sinned against our Lord and we carry insisted as his campaign on those of us of our Lord and carry us what we can not afford it and feel disgusted about us and forgive us and have mercy on us </item>
+        <item> Lord, grant me good offspring from your own children You will hear the supplication </item>
+        <item> Lord distribute me to be thankful for your grace, which you have blessed me and my parents, and to do a good thing that pleases us.</item>
+        <item> Oh God, Your Mercy, I hope, do not turn me into a twinkling of an eye, and fix all my affairs for me. There is no god but You </item>
+
+    </string-array>
+
+
 
 
 </resources>

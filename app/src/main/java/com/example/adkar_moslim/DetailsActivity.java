@@ -25,8 +25,6 @@ public class DetailsActivity extends AppCompatActivity {
     int current_index = 0;
     TextView tv_title,tv_count;
     ImageView imageNext,imagePrev;
-    String[] athkar_sabah;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,23 +41,25 @@ public class DetailsActivity extends AppCompatActivity {
 
     @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
     public void next_citation_morning(View view) {
-        if(current_index < 17){
-            save_current_index();
-            current_index++;
-            showAthkarMoslim();
+        try {
+            if(current_index < 18 ){
+                save_current_index();
+                current_index++;
+                showAthkarMoslim();
 
 
-            Drawable image = getResources().getDrawable(R.drawable.rounded_rectangle_left);
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
+                Drawable image = getResources().getDrawable(R.drawable.rounded_rectangle_right);
+                imagePrev.setBackground(image);
+
+
+            }else{
+
+                Drawable image = getResources().getDrawable(R.drawable.rounded_rectangle_left_disabled);
                 imageNext.setBackground(image);
+
             }
+        }catch (Exception e){e.printStackTrace();}
 
-
-        }else{
-
-            Drawable image = getResources().getDrawable(R.drawable.rounded_rectangle_right_disabled);
-            imagePrev.setBackground(image);
-        }
 
 
     }
@@ -71,12 +71,9 @@ public class DetailsActivity extends AppCompatActivity {
             save_current_index();
             current_index--;
             showAthkarMoslim();
-
-
             Drawable image = getResources().getDrawable(R.drawable.rounded_rectangle_left);
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
-                imageNext.setBackground(image);
-            }
+            imageNext.setBackground(image);
+
 
 
         }else{
@@ -115,12 +112,14 @@ public class DetailsActivity extends AppCompatActivity {
 
 
         }else if(position == 1){
-
+            String[]  athkar_count = getResources().getStringArray(R.array.athkar_count);
             String[] athkar_masah = getResources().getStringArray(R.array.athkar_masah);
-
+            tv_count.setText(athkar_count[get_current_index]);
             tv_title.setText(athkar_masah[get_current_index]);
         }else{
-            tv_title.setText(" ادعية اسلامية تقرب انسان من ربه ");
+            String[] athkar = getResources().getStringArray(R.array.athkar);
+            tv_title.setText(athkar[get_current_index]);
+            tv_count.setText("أدعية ");
 
 
         }
